@@ -24,8 +24,11 @@ contain executable statements.
 
 Usage
 -----
-Clone this repo, then copy or symlink a file in the above format to
-`jscoverage.json` in the project directory.
+1. Clone this repo.
+2. Copy or symlink a file in the above format to `jscoverage.json` in the
+   project directory.
+3. `python -m SimpleHTTPServer`
+4. Point your browser to localhost:8000.
 
 License
 -------
